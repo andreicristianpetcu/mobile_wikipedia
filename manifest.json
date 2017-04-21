@@ -1,0 +1,18 @@
+{
+  "author": "Andrei Petcu",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "description": "A WebExtension that redirects to mobile Wikipedia since it is prettier.",
+  "homepage_url": "https://github.com/andreicristianpetcu/mobile_wikipedia",
+  "manifest_version": 2,
+  "name": "Mobile Wikipedia (WebExtension)",
+  "permissions": [
+    "*://*.wikipedia.org/*",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "version": "1.0.0"
+}
