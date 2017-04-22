@@ -3,7 +3,7 @@ function remove_searchparams(requestDetails) {
     const host = url.host;
     if (host.includes("wikipedia.org") && !host.endsWith("m.wikipedia.org")) {
         const new_host = host.replace("wikipedia.org", "m.wikipedia.org");
-        const mobile_url = url.protocol + "//" + new_host + url.pathname;
+        const mobile_url = url.protocol + "//" + new_host + url.pathname + url.search;
         return {
             redirectUrl: mobile_url
         };
