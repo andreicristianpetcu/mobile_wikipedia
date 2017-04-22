@@ -1,18 +1,22 @@
 {
-  "author": "Andrei Petcu",
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
-  },
-  "description": "A WebExtension that redirects to mobile Wikipedia since it is faster and prettier.",
-  "homepage_url": "https://github.com/andreicristianpetcu/mobile_wikipedia",
-  "manifest_version": 2,
-  "name": "Mobile Wikipedia (WebExtension)",
-  "permissions": [
-    "*://*.wikipedia.org/*",
-    "webRequest",
-    "webRequestBlocking"
-  ],
-  "version": "1.0.1"
+    "author": "Andrei Petcu",
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "description": "A WebExtension that redirects to mobile Wikipedia since it is faster and prettier. The logo is a mixup between these two images https://commons.wikimedia.org/wiki/File:Wiki_puzzle.svg and https://pixabay.com/en/smartphone-smart-phone-android-1917228/",
+    "homepage_url": "https://github.com/andreicristianpetcu/mobile_wikipedia",
+    "manifest_version": 2,
+    "name": "Mobile Wikipedia (WebExtension)",
+    "permissions": [
+        "*://*.wikipedia.org/*",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "icons": {
+        "32": "logo32.png",
+        "64": "logo64.png"
+    },
+    "version": "1.0.2"
 }
