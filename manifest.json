@@ -5,7 +5,7 @@
       "background.js"
     ]
   },
-  "description": "A WebExtension that redirects to mobile Wikipedia since it is prettier.",
+  "description": "A WebExtension that redirects to mobile Wikipedia since it is faster and prettier.",
   "homepage_url": "https://github.com/andreicristianpetcu/mobile_wikipedia",
   "manifest_version": 2,
   "name": "Mobile Wikipedia (WebExtension)",
@@ -14,5 +14,5 @@
     "webRequest",
     "webRequestBlocking"
   ],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
