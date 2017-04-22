@@ -1,7 +1,5 @@
 function expandContents(){
-  // alert('damn it now it works');
   const colapsableBlock = document.querySelectorAll("h2.collapsible-heading")[0];
-  // const colapsableBlock = document.querySelectorAll(".toc-mobile.view-border-box h2.collapsible-heading")[0];
   if (colapsableBlock) {
     const isNotExpanded = !colapsableBlock.classList.contains("open-block");
     if (isNotExpanded){
@@ -14,6 +12,6 @@ function expandContents(){
     }
   }
 };
-window.onload = function(){
-  window.setTimeout(expandContents, 500);
-};
+window.addEventListener("load", function(event) {
+   window.setTimeout(expandContents, 600);
+});
