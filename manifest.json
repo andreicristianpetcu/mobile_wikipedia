@@ -9,7 +9,7 @@
         "matches": ["*://*.wikipedia.org/*"],
         "js": ["content.js"]
     }],
-    "description": "A WebExtension that redirects to mobile Wikipedia since it is faster and prettier. The logo is a mixup between these two images https://commons.wikimedia.org/wiki/File:Wiki_puzzle.svg and https://pixabay.com/en/smartphone-smart-phone-android-1917228/",
+    "description": "A WebExtension that redirects to mobile Wikipedia since it is faster and prettier. Icon is https://www.flaticon.com/free-icon/wikipedia_326943",
     "homepage_url": "https://github.com/andreicristianpetcu/mobile_wikipedia",
     "manifest_version": 2,
     "name": "Mobile Wikipedia (WebExtension)",
@@ -19,8 +19,12 @@
         "webRequestBlocking"
     ],
     "icons": {
-        "32": "logo32.png",
-        "64": "logo64.png"
+        "16": "icon-16.png",
+        "19": "icon-19.png",
+        "38": "icon-38.png",
+        "48": "icon-48.png",
+        "96": "icon-96.png",
+        "128": "icon-128.png"
     },
-    "version": "1.1.1"
+    "version": "1.1.2"
 }
